@@ -91,3 +91,5 @@ def rfit(xs,fs,l):
         B.append(fs[i])
     w = numpy.linalg.solve(A,B)
     return(w, numpy.linalg.cond(A))
+
+#dummy comment

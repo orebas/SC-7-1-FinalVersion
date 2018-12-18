@@ -30,3 +30,5 @@ def rEval(x,xs,ws,l):
     for i in range(len(xs)):
         sum += ws[i] * ptest.phi(x - xs[i], l)
     return sum
+
+#dummy comment
